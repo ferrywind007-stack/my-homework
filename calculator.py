@@ -12,6 +12,12 @@ def multiply(a, b):
     """乘法函数"""
     return a * b
 
+def divide(a, b):
+    """除法函数"""
+    if b == 0:
+        return "错误：除数不能为0"
+    return a / b
+
 def main():
     print("欢迎使用计算器")
     result = add(5, 3)
@@ -19,6 +25,10 @@ def main():
 
     result = multiply(4, 6)
     print(f"4 * 6 = {result}")
+
+        # 测试除法功能
+    result = divide(10, 2)
+    print(f"10 / 2 = {result}")
 
 if __name__ == "__main__":
     main()
