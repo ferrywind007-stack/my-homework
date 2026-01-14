@@ -13,6 +13,8 @@ def multiply(a, b):
     return a * b
 
 def main():
+    print("=== 团队协作计算器 v1.0 ===")
+
     print("欢迎使用计算器")
     result = add(5, 3)
     print(f"5 + 3 = {result}")
